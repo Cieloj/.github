@@ -44,18 +44,16 @@ The second and main part of the Ĉieloj project is a server/hosting control pane
 
 What really sets Ĉieloj apart from all of the other open source control panels out there is that we are starting with a clean slate with nothing set in stone from the outset, everything is up for question and debate with decisions ultimately taken because they will work well for the project and not because they are the 'norm' or the 'standard'. 
 
+* Ubuntu? Maybe, but maybe FreeBSD is actually a better OS to build from. 
+* nginx? Maybe, but maybe Lightppd actually does what we want better.
+* PowerDNS or Bind? Again maybe, but maybe there is a better option.
+* Let's Encrypt? Possibly, but why not ZeroSSL.
 
-Ubuntu? Maybe, but maybe FreeBSD is actually a better OS to build from. 
+The list could go on and on but the point is simple, starting from a blank page and building a system designed around the best elements to get the job done rather than the 'industry standards'.
 
-nginx? Maybe, but maybe Lightppd actually does what we want better.
+While there are a lot of pretty decent, and also quite a lot of pretty bad, solutions server management and control panel solutions out there none of them actually fits in with our aims entirely.
 
-PowerDNS or Bind? Again maybe, but maybe there is a better option.
-
-Phase one will be the control panel, with the billing and client management solution possibly following at a later date as phase two.
-
-The logic here is simple the server control panel is the core and most important part of the project, and while there are a lot of pretty decent solutions out there none of them actually fits in with our aims entirely.
-
-Although there are very few open source options for billing and client management out there and those that do exist have serious issues, this is really a secondary aim for Ĉieloj, and FOSSBilling looks like developing into a good solution in the near future. 
+Although there are very few open source options for billing and client management out there and those that do exist have serious issues, this is something that we have decided to push to one side for Ĉieloj right now, and integration with FOSSBilling looks like developing into a good solution in the near future. 
 
 ## Roadmap
 
